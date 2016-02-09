@@ -1,0 +1,30 @@
+{
+  "name": "virtual-steak-cooker",
+  "version": "1.0.1",
+  "description": "Virtual steak cooker",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterdemartini/virtual-steak-cooker.git"
+  },
+  "keywords": [
+    "Virtual",
+    "steak",
+    "cooker",
+    "recipe"
+  ],
+  "author": "Peter DeMartini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterdemartini/virtual-steak-cooker/issues"
+  },
+  "homepage": "https://github.com/peterdemartini/virtual-steak-cooker#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "commander": "^2.9.0",
+    "lodash": "^4.3.0"
+  }
+}
