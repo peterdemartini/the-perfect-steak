@@ -1,6 +1,6 @@
 {
   "name": "virtual-steak-cooker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Virtual steak cooker",
   "main": "index.js",
   "scripts": {
