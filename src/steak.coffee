@@ -16,14 +16,14 @@ class Steak
     console.log '* Bring to room temperature'
     console.log '* Preheat grill to 450°'
     console.log '* Coat steak in cooking oil'
-    console.log '* Generiously coat steak with salt and pepper'
+    console.log '* Generously coat steak with salt and pepper'
     console.log ''
 
   cook: =>
     console.log '## Cook:'
     sectionCookTime = _.round (@thickness * 10) / 4
+    console.log '* Place on grill'
     stepNames = [
-      'Place on Grill',
       'Rotate 90°',
       'Flip over',
       'Rotate 90°'
